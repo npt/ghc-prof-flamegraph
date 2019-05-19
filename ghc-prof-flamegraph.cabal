@@ -40,5 +40,6 @@ executable ghc-prof-flamegraph
                      , optparse-applicative
                      , process
   other-modules:       ProfFile
+                     , Paths_ghc_prof_flamegraph
   default-language:    Haskell2010
   ghc-options:         -Wall
