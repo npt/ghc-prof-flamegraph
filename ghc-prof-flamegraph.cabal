@@ -29,9 +29,6 @@ description:
   bytes allocated using @--bytes@. In order to use @--bytes@ or @--ticks@ flag one
   have to run program with @+RTS -P -RTS@ in order to get those measurements.
 
-data-files:
-  FlameGraph/flamegraph.pl
-
 source-repository head
   type:     git
   location: https://github.com/fpco/ghc-prof-flamegraph
